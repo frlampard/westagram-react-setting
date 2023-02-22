@@ -1,5 +1,5 @@
-import React from 'react';
-import './Main.css'
+import React from "react";
+import "./Main.css";
 
 const Main = () => {
     return  (
@@ -8,7 +8,7 @@ const Main = () => {
           <div className="writer">
             <img src="img_kr.jpg" width="32.3px" height="32.3px" alt="writer_img"/>
             <span>kr_shin</span>
-            <a href=""><i className="fas fa-ellipsis-h"></i></a>
+            {/* <a href=""><i className="fas fa-ellipsis-h"></i></a> */}
           </div>
           <div className="writeImage">
             <img src="img_kr.jpg" width="614.3px" height="614.3px" alt="writeImage"/>
@@ -25,7 +25,7 @@ const Main = () => {
           </div>
           <div className="writeReaction">
             <div className="writeReactionImg">
-              <img src="img_kr.jpg" width="32.3px" height="32.3px"/>
+              {/* <img src="img_kr.jpg" width="32.3px" height="32.3px"/> */}
               <span>wecode님 외 43명이 좋아합니다.</span>
             </div>
             <div className="replyBox">
@@ -34,7 +34,7 @@ const Main = () => {
                 <p>Nice to meet you.</p>
               </div>
               <div className="moreView">
-                <a href="">더보기</a>
+                {/* <a href="">더보기</a> */}
               </div>
             </div>
             <div className="friendsSentence">
@@ -50,7 +50,7 @@ const Main = () => {
             </div>
           </div>
         </article>
-        <aside>
+        {/* <aside>
           <div className="asideHead">
             <img src="img_kr.jpg" width="56px" height="56px"/>
             <div className="asideHeadText">
@@ -123,7 +123,7 @@ const Main = () => {
           </div>
       </div>
       </div>
-      </aside>
+      </aside> */}
       </div>
     )
 };
