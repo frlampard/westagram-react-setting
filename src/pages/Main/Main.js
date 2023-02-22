@@ -6,12 +6,12 @@ const Main = () => {
         <div className="div_feeds">
         <article>
           <div className="writer">
-            <img src="img_kr.jpg" width="32.3px" height="32.3px" alt="writer_img"/>
+            <img src="../../../public/images/img_kr.jpg" width="32.3px" height="32.3px" alt="writer_img"/>
             <span>kr_shin</span>
-            {/* <a href=""><i className="fas fa-ellipsis-h"></i></a> */}
+            <a href=""><i className="fas fa-ellipsis-h"></i></a>
           </div>
           <div className="writeImage">
-            <img src="img_kr.jpg" width="614.3px" height="614.3px" alt="writeImage"/>
+            <img src="../../../public/images/img_kr.jpg" width="614.3px" height="614.3px" alt="writeImage"/>
           </div>
           <div className="reactionButton">
             <div>
@@ -25,7 +25,7 @@ const Main = () => {
           </div>
           <div className="writeReaction">
             <div className="writeReactionImg">
-              {/* <img src="img_kr.jpg" width="32.3px" height="32.3px"/> */}
+              <img src="../../../public/images/img_kr.jpg" width="32.3px" height="32.3px"/>
               <span>wecode님 외 43명이 좋아합니다.</span>
             </div>
             <div className="replyBox">
@@ -34,7 +34,7 @@ const Main = () => {
                 <p>Nice to meet you.</p>
               </div>
               <div className="moreView">
-                {/* <a href="">더보기</a> */}
+                <a href="">더보기</a>
               </div>
             </div>
             <div className="friendsSentence">
@@ -50,9 +50,9 @@ const Main = () => {
             </div>
           </div>
         </article>
-        {/* <aside>
+        <aside/>
           <div className="asideHead">
-            <img src="img_kr.jpg" width="56px" height="56px"/>
+            <img src="../../../public/images/img_kr.jpg" width="56px" height="56px"/>
             <div className="asideHeadText">
               <p>kr_shin</p>
               <p>kr_shin | 신건록</p>
@@ -65,28 +65,28 @@ const Main = () => {
             </div>
             <div className="asideBodyImgId">
               <div className="asidehi">
-                <img src="mukim.png" width="32px" height="32px" alt="김마음 프로필이미지"/>
+                <img src="../../../public/images/mukim.png" width="32px" height="32px" alt="김마음 프로필이미지"/>
                 <div className="asidehi2">
                   <span>heart_kim</span>
                   <p>5시간 전</p>
                 </div>
               </div>
               <div className="asidehi">
-                <img src="krkim.png" width="32px" height="32px"/>
+                <img src="../../../public/images/krkim.png" width="32px" height="32px"/>
                 <div className="asidehi2">
                   <span>ray_kim</span>
                   <p>9분전</p>
                 </div>
               </div>
               <div className="asidehi">
-                <img src="khkang.png" width="32px" height="32px"/>
+                <img src="../../../public/images/khkang.png" width="32px" height="32px"/>
                 <div className="asidehi2">
                   <span>kh_kang</span>
                   <p>50분 전</p>
                 </div>
               </div>
               <div className="asidehi">
-                <img src="jeonil.png" width="32px" height="32px"/>
+                <img src="../../../public/images/jeonil.png" width="32px" height="32px"/>
                 <div className="asidehi2">
                   <span>jeonil_lee</span>
                   <p>30분 전</p>
@@ -100,30 +100,27 @@ const Main = () => {
               <p>모두 보기</p>
             </div>
             <div className="asideTailsRecommend1">
-              <img src="mskim.png" width="32px" height="32px" alt="김명성 프로필이미지"/>
+              <img src="../../../public/images/mskim.png" width="32px" height="32px" alt="김명성 프로필이미지"/>
               <div className="asideTailsRecommend2">
                 <span>ms_kim</span>
                 <p>Front-End 개발자들이 팔로우 하고있습니다.</p>
               </div>
             </div>
             <div className="asideTailsRecommend1">
-              <img src="jbkang.png" width="32px" height="32px" alt="강종범 프로필이미지"/>
+              <img src="../../../public/images/jbkang.png" width="32px" height="32px" alt="강종범 프로필이미지"/>
               <div className="asideTailsRecommend2">
                 <span>jongbeom_kang</span>
                 <p>Back-End 개발자들이 팔로우 하고있습니다.</p>
               </div>
             </div>
             <div className="asideTailsRecommend1">
-              <img src="swhan.png" width="32px" height="32px" alt="한신웅 프로필이미지"/>
+              <img src="../../../public/images/swhan.png" width="32px" height="32px" alt="한신웅 프로필이미지"/>
               <div className="asideTailsRecommend2">
                 <span>sw_han</span>
                 <p>Front-End 개발자들이 팔로우 하고있습니다.</p>
               </div>
             </div>
           </div>
-      </div>
-      </div>
-      </aside> */}
       </div>
     )
 };
